@@ -6,14 +6,25 @@ function Guest({coin}) {
         </div>
     );
 }
+function AlertButton({message,children}) {
+    return(
+        <button onClick={()=>alert(message)}>
+            {children}
+        </button>
+
+    );
+    
+}
 
 export default function Body() {
     return (
-        <div>
+     <div>
+         <AlertButton message="This is Alert using passing props">
+        Play Movie
+      </AlertButton>
         <Guest coin={1} />
         <Guest coin={2} />
         <Guest coin={3} />
-       
         </div>
     );
  }
