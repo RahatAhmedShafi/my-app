@@ -1,23 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import H from './components/Head.js'
+import Gallery from './Gallery.js';
+import { Profile } from './Gallery.js';
+import F from './Bottom.js';
+import Body  from './Body1.js';
 
-function Profile() {
+export default function App() {
   return (
-   <div>
-   <img  src="bg.jpg" alt="" className="w-50 h-20 rounded-xl"/><br />
-   </div>
-  );
-}
-function App() {
-  return (
-    <section>
-      <h1 className="text-4xl font-bold text-blue-800">welcome to ReactJs </h1>
-      <Profile />
-      <Profile />
-      <Profile />
-    </section>
+    <div>
+    <H />
+    <Gallery />
+    <Profile />
+    <Profile />
+    <Profile />
+    <Profile />
+    <Body />
+    
+    <F />
    
+    
+
+    </div>
+    
   );
 }
-
-export default App;

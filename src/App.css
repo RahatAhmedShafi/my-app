@@ -2,4 +2,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgb(18, 235, 185);
+}
+.head{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  border-color: rgb(0, 0, 0);
+  border-width: 2px;
+  border-radius: 10px;
+  font-size: large;
+  
+}
+.footer{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 130px;
 }
