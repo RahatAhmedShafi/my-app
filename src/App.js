@@ -16,7 +16,7 @@ export default function App() {
     <Profile />
     <Profile />
     <Profile />
-    <Profile />
+    
     <Event />
     <Body />
     <State />
