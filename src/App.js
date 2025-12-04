@@ -8,10 +8,16 @@ import Body  from './Body1.js';
 import Event from './Event.js';
 import State from './State.js';
 
+
 export default function App() {
   return (
     <div>
+     
     <H />
+     <h1>Hi I am Rahat</h1>
+
+
+
     <Gallery />
     <Profile />
     <Profile />
