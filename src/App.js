@@ -18,7 +18,11 @@ export default function App() {
      <h1>Hi I am Rahat</h1>
      <Peratwo />
 
+     <div className='container'>
+      <h1 className='text-danger'>Welcome to my site</h1>
+     </div>
 
+    
     <Gallery />
     <Profile />
     <Profile />
