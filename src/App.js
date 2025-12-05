@@ -7,6 +7,7 @@ import F from './Bottom.js';
 import Body  from './Body1.js';
 import Event from './Event.js';
 import State from './State.js';
+import Peratwo from './Pera.jsx';
 
 
 export default function App() {
@@ -15,7 +16,7 @@ export default function App() {
      
     <H />
      <h1>Hi I am Rahat</h1>
-
+     <Peratwo />
 
 
     <Gallery />
